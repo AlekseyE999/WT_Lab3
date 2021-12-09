@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentClientDAOImpl implements StudentClientDAO {
-    private final SocketManager socketManager = new SocketManager("localhost", 5555);
+    private final SocketManager socketManager = new SocketManager("localhost", 6666);
 
     @Override
     public boolean editInfo(Student newValue) {
