@@ -14,8 +14,8 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class StudentServerDAOImpl implements StudentServerDAO {
 
-    private static final String STUDENTS_XML = "src/main/resources/students.xml";
-    private static final String USERS_XML = "src/main/resources/users.xml";
+    private static final String STUDENTS_XML = "src/resources/students.xml";
+    private static final String USERS_XML = "src/resources/users.xml";
     private final ReentrantReadWriteLock studentsLock = new ReentrantReadWriteLock(true);
     private final ReentrantReadWriteLock usersLock = new ReentrantReadWriteLock(true);
 
