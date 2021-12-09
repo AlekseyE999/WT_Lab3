@@ -5,7 +5,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -44,3 +43,4 @@ local.properties
 /bin/
 
 .idea
+*.iml
